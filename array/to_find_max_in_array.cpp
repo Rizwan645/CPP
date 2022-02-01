@@ -4,10 +4,10 @@ using namespace std;
 int main()
 {
 	int n;
-	cout << "The no of elements from that you want to find the max number: ";
+	cout << "Enter the size of your array: ";
 	cin>> n;
 	int arr[n];
-	cout << "input your "<<n << "numbers: "<<endl;
+	cout << "input your "<<n << " numbers: "<<endl;
 	for (int i=0;i<n;i++)
 	{
 		cin>>arr[i];
@@ -16,7 +16,7 @@ int main()
 	int max=arr[0];
 	for (int i=1;i<n;i++)
 	{
-		if(arr[i]>arr[0])
+		if(arr[i]>max)
 		{
 			max=arr[i];
 		}
