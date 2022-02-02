@@ -6,7 +6,6 @@ int main()
 	cout << "Enter the size of your array: ";
 	cin>> n;
 	int a[n];
-	int b[n];
 	cout << "input your "<<n <<" numbers: "<<endl;
 	for (int i=0;i<n;i++)
 	{
