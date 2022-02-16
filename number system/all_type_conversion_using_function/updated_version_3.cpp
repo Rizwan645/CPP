@@ -39,22 +39,21 @@ int main()
     conversion(x);
     cout << endl<<endl;
     
-    while (a==1)
+    while (true)
     {
     	cout << "If you want to continue press 1"<<endl;
     	cout << "Otherwise to Finish press 0"<<endl;
     	cin >> b;
+    	if(b==0)
+    	{
+    		return 0;
+		}
     	x=taking_input_type();
     	y=taking_output_type();
     	conversion(x);
     	cout << endl<<endl;
-    	a=b;
+    
 	}
-	while (a!=1)
-	{
-		return 0;
-	}
-	
 }
 int taking_input_type()
 {
