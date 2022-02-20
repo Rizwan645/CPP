@@ -7,7 +7,8 @@ int main()
     int d;
     float r1,r2;
     double r11,r22;
-    cout << "The general form of a Quadratic equation: ax^2 + bx + c"<<endl;
+    cout << "ROOTS OF A QUADRATIC EQUATION"<<endl;
+    cout << " General form: ax^2 + bx + c"<<endl;
     cout<<"Enter the value of a : ";
     cin >>a;
     cout<<"Enter the value of b : ";
