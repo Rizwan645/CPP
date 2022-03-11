@@ -18,7 +18,6 @@ int main()
             if(n%i==0)
             {
                 c++;
-                break;
             }
         }
         if(c==0)
